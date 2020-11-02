@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "cd server; nodemon start"
+  },
+  "name": "react_course",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukaszczajkowski/react-cop-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukaszczajkowski/react-cop-tutorial/issues"
+  },
+  "homepage": "https://github.com/lukaszczajkowski/react-cop-tutorial#readme",
+  "description": ""
 }
